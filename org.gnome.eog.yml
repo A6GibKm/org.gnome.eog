@@ -174,6 +174,7 @@ modules:
         x-checker-data:
           type: gnome
           name: eog
+          is-important: true
       - type: patch
         path: 0001-Update-libportal-usage.patch
 
@@ -185,3 +186,4 @@ modules:
         x-checker-data:
           type: gnome
           name: eog-plugins
+          is-important: true
